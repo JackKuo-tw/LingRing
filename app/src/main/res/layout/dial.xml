@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:id="@+id/sipLabel"
+        android:layout_width="218dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="52dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Connect"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/holo_blue_light"
+        android:hapticFeedbackEnabled="false"
+        android:text="Connect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sipLabel" />
+
+    <Button
+        android:id="@+id/unregister"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Unregister"
+        app:layout_constraintStart_toStartOf="@+id/Connect"
+        app:layout_constraintTop_toBottomOf="@+id/Connect" />
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/unregister"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/unregister"
+        app:layout_constraintTop_toBottomOf="@+id/unregister" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:drawable/stat_sys_phone_call_forward"
+        app:layout_constraintEnd_toEndOf="@+id/phoneNum"
+        app:layout_constraintStart_toStartOf="@+id/phoneNum"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNum" />
+
+    <Button
+        android:id="@+id/hangup"
+        android:layout_width="81dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/hangup"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Speaker"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Speaker"
+        android:layout_width="91dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/hangup"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/sound"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/hangup"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

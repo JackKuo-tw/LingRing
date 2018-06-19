@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LingRing</string>
+    <string name="title_activity_call">CallActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="nav_header_title">郭俊甫</string>
+    <string name="nav_header_subtitle">資訊工程學系三年級</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_drawer">LingRing</string>
+    <string name="register_domain">Domain/IP Address</string>
+    <string name="save">Save</string>
+    <string name="password">Password</string>
+    <string name="extension">Extension</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
