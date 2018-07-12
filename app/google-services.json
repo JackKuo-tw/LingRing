@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "360076676399",
+    "firebase_url": "https://lingring409.firebaseio.com",
+    "project_id": "lingring409",
+    "storage_bucket": "lingring409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360076676399:android:65b939344146e120",
+        "android_client_info": {
+          "package_name": "com.example.jackkuo.lingring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360076676399-u0flg0gcee6fe1osghsi1m57fi4qnnje.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "360076676399-u0flg0gcee6fe1osghsi1m57fi4qnnje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxsqFQn99YANniH38kQ_9KMJlRRKbXYh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
